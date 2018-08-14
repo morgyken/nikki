@@ -55,17 +55,13 @@ class HomeController extends Controller
 
 public function sendMail()
    {
-       $data = array('name'=>"Our Code World");
-       // Path or name to the blade template to be rendered
-       $template_path = 'mail';
-
-       Mail::send(['text'=> $template_path ], $data, function($message) {
+      Mail::send(['text'=>"mail" ], ['data', 'Sarthak'], function($message) {
            // Set the receiver and subject of the mail.
-           $message->to('anyemail@emails.com', 'Receiver Name')->subject('Laravel First Mail');
+           $message->to('morgyken@gmail.com', 'Receiver Name')->subject('My Subject is here');
            // Set the sender
-           $message->from('mymail@mymailaccount.com','bitfumes');
+           $message->from('morgyken@morgyken.com','bitfumes');
        });
 
-       return "Basic email sent, check your inbox.";
+       return redirect()->route('general');
    }
 }

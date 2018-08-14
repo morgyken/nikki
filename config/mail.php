@@ -16,7 +16,9 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'mail'),
+    'driver' => env('MAIL_DRIVER', 'smtp'),
+
+    //'driver' => 'sendmail',
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +31,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +58,8 @@ return [
     */
 
     'from' => [
-        'address' => env('smtp.gmail.com', 'morgyken@gmail.com'),
-        'name' => env('Morgan', 'Unlocks needed'),
+        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
     /*
@@ -84,9 +86,9 @@ return [
     |
     */
 
-    'username' => env('morgyken@gmail.com'),
+    'username' => env('MAIL_USERNAME'),
 
-    'password' => env('123morganna'),
+    'password' => env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
@@ -111,8 +113,6 @@ return [
     | of the emails. Or, you may simply stick with the Laravel defaults!
     |
     */
-
-    'pretend' => false,
 
     'markdown' => [
         'theme' => 'default',

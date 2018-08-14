@@ -72,7 +72,6 @@
                                       </script>
 
                 									</div>
-
                 									<div class="form-group">
                 											<div class="col-sm-6 col-sm-offset-3">
                 												<input type="submit" name="login-submit" id="login-submit"

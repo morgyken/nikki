@@ -18,6 +18,6 @@ Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
 
-Route::get('send-main', 'HomeController@sendMail');
+Route::get('send-mail', 'HomeController@sendMail');
 
 Route::post('/posts', 'HomeController@posts')->name('posts');
