@@ -9,13 +9,16 @@
                   @foreach($posts as $post)
                   <div class="jumbotron">
                     
-                    <p>{{strstr($post->email, '@', -1)}}</p>
+                    
                     <div class="alert alert-success">
-                      {{ $post-> email}}
-                    </div>
+                      <h4>{{ $post-> email}}</h4>
+                      
+                     <p> {{ $post->token}} </p>
 
                     <div class="alert alert-info">
-                      {{ $post -> urlpost}}
+                     
+
+                   <p> {{ $post -> urlpost}} </p>
 
                     </div>
 

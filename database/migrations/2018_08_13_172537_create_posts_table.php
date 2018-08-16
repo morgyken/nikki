@@ -17,6 +17,7 @@ class CreatePostsTable extends Migration
           $table->increments('id');
           $table->string('email');
           $table->string('urlpost');
+          $table->string('token')->nullable();
           $table->rememberToken();
           $table->timestamps();
 
