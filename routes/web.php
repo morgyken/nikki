@@ -12,11 +12,16 @@
 */
 
 
-Route::get('/', 'HomeController@general')->name('general');
+//Route::get('/', 'HomeController@general')->name('general');
+
+Route::get('/', 'HomeController@sample')->name('general');
 
 Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
+
+Route::get('/aboutus', 'HomeController@aboutus')->name('aboutus');
+Route::get('/support', 'HomeController@support')->name('support');
 
 Route::get('send-mail-two', 'HomeController@sendMail');
 

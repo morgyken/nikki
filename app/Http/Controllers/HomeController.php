@@ -37,6 +37,18 @@ class HomeController extends Controller
         return view('home', ['posts'=> $post]);
     }
 
+    public function aboutus()
+    {
+        $post = Posts::orderBy('created_at', 'desc')->paginate(3);
+
+        return view('aboutus');
+    }
+
+    public function support()
+    {
+        return view('support');
+    }
+
     public function general()
     {
             return view('welcome');
@@ -53,8 +65,6 @@ class HomeController extends Controller
         $post->email = $request->email;
 
         //$this->email = $request->email;
-
-
 
         $post->save();
 
@@ -79,7 +89,12 @@ public function sendMail()
 
    public function paypal()
    {
-       return view ('paypal', ['email'=> session('email')]);
+       return view ('paypal-2', ['email'=> session('email')]);
+   }
+
+   public function sample()
+   {
+       return view ('index');
    }
 
    public function postPayment(Request $request)

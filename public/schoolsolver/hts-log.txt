@@ -1,0 +1,67 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 18 Aug 2018 13:27:18 at https://www.schoolsolver.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.schoolsolver.com -O1 "C:\My Web Sites\schoolsolver" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:32:50	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2294): https://res.cloudinary.com/schoolsolver/image/fetch/w_100,h_100,f_auto,q_75/https://schoolsolver.s3.amazonaws.com/media/profile_photos/gm.jpg
+13:56:00	Warning: 	FOUND for https://www.schoolsolver.com/login/facebook/?next=/
+13:56:00	Warning: 	File has moved from https://www.schoolsolver.com/login/facebook/?next=/ to https://www.facebook.com/v2.3/dialog/oauth?state=HtqNCQrUT6lUayhMYx7iQn4UQbNSgrEi&redirect_uri=https%3A%2F%2Fwww.schoolsolver.com%2Fcomplete%2Ffacebook%2F%3Fredirect_state%3DHtqNCQrUT6lUayhMYx7iQn4UQbNSgrEi&scope=email&client_id=500394603438942
+13:56:20	Warning: 	FOUND for https://www.schoolsolver.com/login/google-oauth2/?next=/
+13:56:20	Warning: 	File has moved from https://www.schoolsolver.com/login/google-oauth2/?next=/ to https://accounts.google.com/o/oauth2/auth?state=hqP45OkTxiF1p9JYAPNkFN4yv9CsIigo&redirect_uri=https://www.schoolsolver.com/complete/google-oauth2/&scope=email+openid+email+profile&client_id=1053193566871-630sl2sp15td4a9fibiuef2gfubu7m2q.apps.googleusercontent.com&response_type=code
+13:59:29	Error: 	"METHOD NOT ALLOWED" (405) at link https://www.schoolsolver.com/account/paypal/ (from https://www.schoolsolver.com/question/18135-economic/)
+14:00:32	Warning: 	FOUND for https://www.schoolsolver.com/question/18135/answers/add/
+14:00:32	Warning: 	File has moved from https://www.schoolsolver.com/question/18135/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18135/answers/add/
+14:00:34	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link static.transtutors.com/images/answer-blur.png (from https://www.schoolsolver.com/question/18135-economic/)
+14:01:15	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18135-economic/assets/close.png (from https://www.schoolsolver.com/question/18135-economic/)
+14:10:11	Warning: 	FOUND for https://www.schoolsolver.com/question/18133/answers/add/
+14:10:11	Warning: 	File has moved from https://www.schoolsolver.com/question/18133/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18133/answers/add/
+14:10:29	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18133-test-questions/assets/close.png (from https://www.schoolsolver.com/question/18133-test-questions/)
+14:15:52	Warning: 	FOUND for https://www.schoolsolver.com/question/18131/answers/add/
+14:15:52	Warning: 	File has moved from https://www.schoolsolver.com/question/18131/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18131/answers/add/
+14:15:55	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18131-factoring/assets/close.png (from https://www.schoolsolver.com/question/18131-factoring/)
+14:24:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 10402): https://schoolsolver.s3.amazonaws.com/media/attachments/8264.png
+14:24:38	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 7283): https://schoolsolver.s3.amazonaws.com/media/attachments/8187.png
+14:29:08	Warning: 	FOUND for https://www.schoolsolver.com/question/18130/answers/add/
+14:29:08	Warning: 	File has moved from https://www.schoolsolver.com/question/18130/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18130/answers/add/
+14:29:20	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18130-polynomials-homework/assets/close.png (from https://www.schoolsolver.com/question/18130-polynomials-homework/)
+14:30:08	Warning: 	FOUND for https://www.schoolsolver.com/question/18123/answers/add/
+14:30:08	Warning: 	File has moved from https://www.schoolsolver.com/question/18123/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18123/answers/add/
+14:30:22	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18123-rounding-and-estimating/assets/close.png (from https://www.schoolsolver.com/question/18123-rounding-and-estimating/)
+14:32:54	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 16211): https://res.cloudinary.com/schoolsolver/image/fetch/w_100,h_100,f_auto,q_75/https://schoolsolver.s3.amazonaws.com/media/profile_photos/4adb5938d8462b219bff453827975b33_20140415053025540284_thumb_xlarge.png
+14:36:39	Warning: 	FOUND for https://www.schoolsolver.com/question/18121/answers/add/
+14:36:39	Warning: 	File has moved from https://www.schoolsolver.com/question/18121/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18121/answers/add/
+14:36:51	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18121-conventional-encryption/assets/close.png (from https://www.schoolsolver.com/question/18121-conventional-encryption/)
+14:39:18	Warning: 	FOUND for https://www.schoolsolver.com/question/18120/answers/add/
+14:39:18	Warning: 	File has moved from https://www.schoolsolver.com/question/18120/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18120/answers/add/
+14:39:18	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18120-please-write-an-essay-of-350-500-words-for-the-given-question/assets/close.png (from https://www.schoolsolver.com/question/18120-please-write-an-essay-of-350-500-words-for-the-given-question/)
+14:39:19	Warning: 	FOUND for https://www.schoolsolver.com/question/18114/answers/add/
+14:39:19	Warning: 	File has moved from https://www.schoolsolver.com/question/18114/answers/add/ to https://www.schoolsolver.com/account/login/?next=/question/18114/answers/add/
+14:39:19	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/question/18114-infinity/assets/close.png (from https://www.schoolsolver.com/question/18114-infinity/)
+14:39:19	Error: 	"NOT FOUND" (404) at link https://www.schoolsolver.com/userprofile/img/rating-stars.png (from https://www.schoolsolver.com/userprofile/17/)
+14:39:23	Warning: 	FOUND for https://www.schoolsolver.com/question/16346-a-history-of-poem-generation-in-the/
+14:39:23	Warning: 	File has moved from https://www.schoolsolver.com/question/16346-a-history-of-poem-generation-in-the/ to https://www.schoolsolver.com/
+14:39:26	Warning: 	FOUND for https://www.schoolsolver.com/messages/write/tutormaster/?next=/
+14:39:26	Warning: 	File has moved from https://www.schoolsolver.com/messages/write/tutormaster/?next=/ to https://www.schoolsolver.com/account/login/?next=/messages/write/tutormaster/%3Fnext%3D/
+14:39:47	Warning: 	FOUND for https://www.schoolsolver.com/question/17388-decision-making-and-accounting-for-manager/
+14:39:47	Warning: 	File has moved from https://www.schoolsolver.com/question/17388-decision-making-and-accounting-for-manager/ to https://www.schoolsolver.com/account/login/?next=/question/17388/
+14:39:47	Warning: 	FOUND for https://www.schoolsolver.com/question/17329-uber/
+14:39:47	Warning: 	File has moved from https://www.schoolsolver.com/question/17329-uber/ to https://www.schoolsolver.com/account/login/?next=/question/17329/
+14:39:47	Warning: 	FOUND for https://www.schoolsolver.com/question/16964-cfo-project-company-mcdonalds/
+14:39:47	Warning: 	File has moved from https://www.schoolsolver.com/question/16964-cfo-project-company-mcdonalds/ to https://www.schoolsolver.com/account/login/?next=/question/16964/
+14:39:47	Warning: 	FOUND for https://www.schoolsolver.com/messages/write/haafi/?next=/
+14:39:47	Warning: 	File has moved from https://www.schoolsolver.com/messages/write/haafi/?next=/ to https://www.schoolsolver.com/account/login/?next=/messages/write/haafi/%3Fnext%3D/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/question/14536-cultural-influence-on-human-organization/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/question/14536-cultural-influence-on-human-organization/ to https://www.schoolsolver.com/account/login/?next=/question/14536/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/question/14415-exploring-entrepreneurism/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/question/14415-exploring-entrepreneurism/ to https://www.schoolsolver.com/account/login/?next=/question/14415/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/question/14414-global-initiatives/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/question/14414-global-initiatives/ to https://www.schoolsolver.com/account/login/?next=/question/14414/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/question/14413-optimizing-organizations/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/question/14413-optimizing-organizations/ to https://www.schoolsolver.com/account/login/?next=/question/14413/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/question/14350-revising-and-rewriting-final-essay/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/question/14350-revising-and-rewriting-final-essay/ to https://www.schoolsolver.com/account/login/?next=/question/14350/
+14:41:23	Warning: 	FOUND for https://www.schoolsolver.com/messages/write/CreativeCat/?next=/
+14:41:23	Warning: 	File has moved from https://www.schoolsolver.com/messages/write/CreativeCat/?next=/ to https://www.schoolsolver.com/account/login/?next=/messages/write/CreativeCat/%3Fnext%3D/

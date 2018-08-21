@@ -69,16 +69,14 @@
                                         color: #890999;
                                     }
 
-                                </style>
-                            
-
-                                                         
+                                </style>                                                         
+                            </div>
+                    
                         </div>
-                </div>
-            </div>
+                    </div>
 
+                </div>
+              
+            </div>
         </div>
-      
-    </div>
-</div>
 @endsection

@@ -43,7 +43,8 @@
             .StripeElement {
               background-color: white;
               height: 40px;
-              padding: 10px 12px;
+              padding: 20px 20px;
+              
               border-radius: 4px;
               border: 1px solid transparent;
               box-shadow: 0 1px 3px 0 #e6ebf1;
@@ -124,7 +125,7 @@
     <script src="https://js.stripe.com/v3/"></script>
     <script src="{{ URL::asset('stripejs/example4.js')}}" data-rel-js></script>
     <script src="{{ URL::asset('stripe/js/l10n.js')}}" data-rel-js></script>
-      <script src="{{URL::asset('stripe/js/index.js')}}" data-rel-js></script>
+    <script src="{{URL::asset('stripe/js/index.js')}}" data-rel-js></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
    
     <script type="text/javascript">
@@ -197,11 +198,6 @@
               // Submit the form
               form.submit();
             }
-    </script>
-
-    <script type="text/javascript">
-        
-                
     </script>
 </body>
 </html>
