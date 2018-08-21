@@ -19,9 +19,9 @@
   div.top-lists{z-index:100;padding-top:2%;height:100%;padding-left:10px}div.top-earners-list{margin-right:-17px!important;margin-left:auto!important}div.user-details{margin-left:80px;padding-top:10px}.asmentionedon{padding:0!important}.mentioned-logo{width:auto;height:30px;margin:5px 10px}.row-centered{text-align:center;padding-top:12px}input#homepageaskquestion{font-size:17px}.col-centered{display:inline-block;float:none !important;text-align:left;margin-right:-4px}.col-fixed{width:79%}.heading-title{text-align:center;line-height:30px}.line-separator{height:1px;border-bottom:1px solid rgba(18,243,189,.49);margin-bottom:9px;margin-top:9px}.infobox{transition:box-shadow .5s ease;-webkit-transition:box-shadow .5s ease;-moz-transition:box-shadow .5s ease;-o-transition:box-shadow .5s ease;padding-top:5px}.infobox:hover{box-shadow:0 0 9px #B8B8B8}.glyphy{display:inline;padding-left:14px}.ebayofhomework{padding-top:0!important}input.button.highlight-button.homepageasknowbutton{display:inline-block;position:absolute;white-space:nowrap;right:3%;bottom:2px;width:75px;height:33px;-webkit-animation-duration:2s;animation-duration:2s}#homepageaskquestion{width:88%;margin:1px 1px 1px 21px}@media (max-width:1199px){#homepageaskquestion{width:86%!important}}@media (max-width:495px){#homepageaskquestion{width:76%!important}}.smallerrow{max-width:200px!important;display:inline;max-height:170px!important}img.profile-photo{float:left;border:1px solid #ddd;width:60px;max-height:60px;margin:10px;border-radius:5px}
     </style>
     
-            <link rel="icon" href="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/ch1.png') }}" type="image/x-icon">
-            <link rel="stylesheet" type="text/css" href="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/bootstrap/css/bootstrap.min.css') }}" />
-            <link rel="stylesheet" type="text/css" href="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/css/base-and-jquery-ui.min.css ')}}" />
+            <link rel="icon" href="{{URL::asset('solver/img/ch1.png') }}" type="image/x-icon">
+            <link rel="stylesheet" type="text/css" href="{{URL::asset('solver/bootstrap/css/bootstrap.min.css') }}" />
+            <link rel="stylesheet" type="text/css" href="{{URL::asset('solver/css/base-and-jquery-ui.min.css ')}}" />
             <style>
 		    a.account.inbox.glyphicon.glyphicon-envelope {
 			font-size: .9em;
@@ -33,14 +33,14 @@
         <script type="text/javascript">
             var staticUrl = 'https://dw0mieutazhgr.cloudfront.net/';
         </script>
-        <script type="text/javascript" src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/build/js/base-concat.min.js') }}"></script>
+        <script type="text/javascript" src="{{URL::asset('solver/build/js/base-concat.min.js') }}"></script>
 
           <!-- Styles -->
         
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="{{URL:: asset('solver/css/bootstrap.min.css')}}" rel="stylesheet" id="bootstrap-css">
         
          <link href="{{URL:: asset('js/myasset.js')}}" rel="stylesheet">
 
@@ -92,7 +92,7 @@
  <div class="main-header container">
 
 <div class="text-center">
-    <img src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/ch3.png') }}" >
+    <img src="{{URL::asset('solver/img/ch3.png') }}" >
 </div>
 <div class="left"><a class="logo-original" href="index.html"></a></div>
 <div class="top-container">
@@ -169,12 +169,12 @@
     <h3>You can Pay using</h3>
         <img alt="Mastercard Foundation" class="mentioned-logo" 
         src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/mastercard.png') }}">
-        <img alt="The Next Web" class="mentioned-logo" src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/paypal.png') }}">
+        <img alt="The Next Web" class="mentioned-logo" src="{{URL::asset('solver/img/paypal.png') }}">
         <img alt="Forbes" class="mentioned-logo" 
-        src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/all2.jpg')}} ">
+        src="{{URL::asset('solver/img/all2.jpg')}} ">
         <img alt="Mashable" class="mentioned-logo" 
-        src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/visa.jpg') }}">
-        <img alt="Product Hunt" class="mentioned-logo" src="../dw0mieutazhgr.cloudfront.net/img/mastercard.png') }}">
+        src="{{URL::asset('solver/img/visa.jpg') }}">
+        <img alt="Product Hunt" class="mentioned-logo" src="{{URL::asset('solver/img/mastercard.png') }}">
 </div>
 
             <div class="row row-centered">
@@ -220,7 +220,7 @@
 
     </div>
     <div class="col-md-4">    
-         <img width="400px" height="400px" src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/img/ch1.png') }}">
+         <img width="400px" height="400px" src="{{URL::asset('solver/img/ch1.png') }}">
                               
                                                
 
@@ -248,26 +248,27 @@
     
 
             
-        <script async src="{{ URL::asset('schoolsolver/platform.twitter.com/widgets.js') }}" charset="utf-8"></script>
+        <script async src="{{ URL::asset('solver/js/widgets.js') }}" charset="utf-8"></script>
       
         <script type="text/javascript" 
-        src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/bower_components/jquery.fitvids/jquery.fitvids.js')}}">
+
+        src="{{URL::asset('solver/jquery.fitvids/jquery.fitvids.js')}}">
         	
         </script>
        
     
         
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/css/text-animation.css') }}" />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('solver/css/text-animation.css') }}" />
+    <script src="{{URL::asset('solver/js/bootstrap.min.js')}}"></script>
 
 
        
 	<!--- When cometchat is working put it into static folder -->
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/css/cometchat/cometchat.css') }} />
-	<script type="text/javascript" src="{{URL::asset('schoolsolver/dw0mieutazhgr.cloudfront.net/js/cometchat/cometchatjs.js')}} " charset="utf-8" defer></script> 
+	<link rel="stylesheet" type="text/css" href="{{URL::asset('solver/css/cometchat/cometchat.css') }} />
+	<script type="text/javascript" src="{{URL::asset('solver/js/cometchat/cometchatjs.js')}} " charset="utf-8" defer></script> 
     	
     <img src="http://bat.bing.com/action/0?ti=4057328&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" />    
-    <noscript><p><img alt="Clicky" width="1" height="1" src="{{URL::asset('schoolsolver/in.getclicky.com/100728630ns.gif') }}" /></p></noscript>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="{{URL::asset('solver/img/100728630ns.gif') }}" /></p></noscript>
 
 
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
